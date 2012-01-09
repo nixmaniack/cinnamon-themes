@@ -18,6 +18,9 @@ sudo cp -R Minty /usr/share/themes/
 sudo rm -rf /usr/share/themes/New-Elements
 sudo cp -R New-Elements /usr/share/themes/
 
+sudo rm -rf /usr/share/themes/Trans-Blues
+sudo cp -R Trans-Blues /usr/share/themes/
+
 sudo rm -rf /usr/share/themes/WoodnTux
 sudo cp -R WoodnTux /usr/share/themes/
 
