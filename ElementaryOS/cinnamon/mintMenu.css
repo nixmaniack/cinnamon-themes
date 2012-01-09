@@ -1,12 +1,12 @@
 /* Menu */
-.applications-menu-favorites-box {
+.menu-favorites-box {
   width: 70%;
   margin: auto;
   padding: 0px;
   border: 1px solid #666; 
   border-radius: 4px; 
 }
-.applications-menu-favorites-button {
+.menu-favorites-button {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -14,7 +14,7 @@
     border: 1px rgba(255,255,255,0);   
 }
 
-.applications-menu-favorites-button:hover {
+.menu-favorites-button:hover {
     color: white;
 	 border: 1px  rgba(0,0,0,0.5);
     background-color: #3D95E7;
@@ -22,28 +22,28 @@
     border-radius: 4px;*/
 }
 
-.applications-menu-favorites-button:first-child {
+.menu-favorites-button:first-child {
     border-radius: 4px 4px 0 0;
     outline-radius: 4px 4px 0 0 ; 
 }
 
-.applications-menu-favorites-button:last-child {
+.menu-favorites-button:last-child {
     border-radius: 0 0 4px 4px;
     outline-radius: 0 0 4px 4px; 
 }
 
-.applications-menu-favorites-button:only-child {
+.menu-favorites-button:only-child {
     border-radius: 4px;
     outline-radius: 4px; 
 }
 
-.places-box {
+.menu-places-box {
   width: 70%;
   margin: auto;
   padding: 10px;
   border: 0px solid #666;  
 }
-.places-button {
+.menu-places-button {
     color: white;
     padding-top: 10px;
     padding-left: 10px;
@@ -51,24 +51,24 @@
     padding-bottom: 10px;    
 }
 
-.categories-box {
+.menu-categories-box {
     color: white;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;    
 }
-.applications-box {
+.menu-applications-box {
     color: white;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;    
 }
-.applications-scrollbox {
+.menu-applications-scrollbox {
     height: 300px;
 }
-.applications-title {
+.menu-applications-title {
 	padding-top: 15px;
 	padding-bottom: 5px;
 	padding-right: 5px;
@@ -79,7 +79,7 @@
 	font-weight: bold;
 }
 
-.favorites-title {
+.menu-favorites-title {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-right: 5px;
@@ -90,11 +90,11 @@
 	font-weight: bold;
 }
 
-.favorites-title:hover {
+.menu-favorites-title:hover {
     font-weight: bold;   
 }
 
-.application-button {
+.menu-application-button {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
@@ -102,8 +102,8 @@
     border: 1px  rgba(255,255,255,0);  
 }
 
-.application-button:hover,
-.application-button-selected {
+.menu-application-button:hover,
+.menu-application-button-selected {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
@@ -115,11 +115,11 @@
     border-radius: 4px;
 }
 
-.application-button-label { 
+.menu-application-button-label { 
     padding-left: 5px       
 }
 
-.category-button {
+.menu-category-button {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
@@ -128,7 +128,7 @@
     border: 1px  rgba(255,255,255,0);  
 }
 
-.category-button-selected {
+.menu-category-button-selected {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
@@ -140,7 +140,7 @@
     border-radius: 4px;
 }
 
-.category-button-label { 
+.menu-category-button-label { 
     padding-left: 5px       
 }
 
@@ -149,13 +149,13 @@
     border-radius: 8px;
 }
 
-.selected-app-box {
+.menu-selected-app-box {
     padding-right: 30px;
     padding-left: 28px;
     text-align: right;
 }
 
-.selected-app-title {
+.menu-selected-app-title {
     color: white;
     font-weight: bold;
     font-size: small;
@@ -166,7 +166,7 @@
     max-width: 150px;
 }
 
-.search_box {
+.menu-search_box {
    padding-left: 30px;
    font-size: 10pt;
    border-radius: 4px;
