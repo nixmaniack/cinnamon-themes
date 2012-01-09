@@ -1,0 +1,104 @@
+
+/* Overview */
+
+#overview {
+    spacing: 20px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.workspace-controls {
+    visible-width: 15px; /* Amount visible before hovering */
+}
+
+.workspace-thumbnails-background {
+    border-right:none;
+    spacing: 4px;
+    padding: 12px 12px;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 5px 0px 0px 5px;
+    border-right: 0px;
+}
+
+.workspace-thumbnails-background:rtl {
+    border-right: 1px;
+    border-left: 0px;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.workspace-thumbnails {
+        border-radius: 4px;
+        spacing: 3px;
+}
+
+.workspace-thumbnail-indicator {
+    outline: 1px solid rgba(255,255,255,0.89);
+        box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.7);
+        border-radius: 4px;
+}
+
+.window-caption {
+    -cinnamon-caption-spacing: 10px;
+    background-color: rgba(0,0,0,0.85);
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: inset 0px 2px 3px 0px rgba(255,255,255,0.15);
+    color: #fff;
+    font-size: 8.5pt;
+    font-weight: bold;
+    padding: 4px 15px;
+    text-align: center;
+    text-shadow: rgba(0,0,0,0.8) 0px 1px 0px;
+}
+
+.window-close {
+    background-image: url("img/close-window.svg");
+    height: 24px;
+    width: 24px;
+    -st-background-image-shadow: -2px 2px 6px rgba(0,0,0,0.5);
+    -cinnamon-close-overlap: 12px;
+}
+
+.window-close:rtl {
+    -st-background-image-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
+
+/* Themes in overview */
+.theme-button {
+	color: #CCCCCC;
+	padding: 10px;
+	margin: auto;
+}
+
+.theme-button:hover {
+    color: white;
+	background-gradient-direction: vertical;
+    background-gradient-start: rgba(255,255,255,0);
+    background-gradient-end: rgba(255,255,255,0.3);
+    color: rgba(255,255,255,0.9);
+    -st-shadow: 0px -1px 5px 0px rgba(0,0,0,0.9);
+    border-radius: 4px;
+}
+
+.theme-button:active {
+	color: white;
+	     background-gradient-direction: vertical;
+    background-gradient-start: rgba(255,255,255,0.1);
+    background-gradient-end: rgba(255,255,255,0.3);
+    border-radius: 4px;
+}
+
+.theme-box {
+	spacing: 3px;
+}
+
+.theme-name {
+	font-size: 10pt;
+	font-weight: bold;
+	color: white;
+}
+
+.theme-type {
+	font-size: 6pt;
+	font-style: italic;
+}

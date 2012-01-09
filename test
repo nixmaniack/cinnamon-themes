@@ -1,0 +1,24 @@
+#!/bin/bash
+
+sudo rm -rf /usr/share/themes/ChocoLatte
+sudo cp -R ChocoLatte /usr/share/themes/
+
+sudo rm -rf /usr/share/themes/Dark-Glass
+sudo cp -R Dark-Glass /usr/share/themes/
+
+sudo rm -rf /usr/share/themes/Eleganse
+sudo cp -R Eleganse /usr/share/themes/
+
+sudo rm -rf /usr/share/themes/ElementaryOS
+sudo cp -R ElementaryOS /usr/share/themes/
+
+sudo rm -rf /usr/share/themes/Minty
+sudo cp -R Minty /usr/share/themes/
+
+sudo rm -rf /usr/share/themes/New-Elements
+sudo cp -R New-Elements /usr/share/themes/
+
+sudo rm -rf /usr/share/themes/WoodnTux
+sudo cp -R WoodnTux /usr/share/themes/
+
+

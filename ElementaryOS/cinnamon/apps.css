@@ -1,0 +1,212 @@
+/* Apps */
+
+.icon-grid {
+    spacing: 70px;
+    -cinnamon-grid-item-size: 100px;
+}
+
+.contact-grid {
+    spacing: 36px;
+    -cinnamon-grid-item-size: 272px; /* 2 * -cinnamon-grid-item-size + spacing */
+}
+
+.icon-grid .overview-icon {
+    icon-size: 65px;
+}
+
+.all-app {
+    padding: 2px 0 2px 16px;
+    spacing: 70px;
+}
+
+.all-app:rtl {
+    padding-right: 2px;
+    padding-left: 16px;
+}
+
+.all-app .icon-grid {
+    padding: 15px 20px;
+}
+
+.all-app .overview-icon {
+    icon-size: 65px;
+}
+
+
+.dash-item-container > .app-well-app {
+    padding: 3px 3px;
+}
+
+.remove-favorite-icon {
+    color: #E6E6E6;
+    icon-shadow: #000 0px -1px 0px;
+}
+
+.remove-favorite-icon:hover {
+    color: #191919;
+    icon-shadow: rgba(255,255,255,0.2) 0px 1px 0px;
+}
+
+.app-well-app > .overview-icon,
+.remove-favorite > .overview-icon,
+.search-result-content > .overview-icon {
+    color: rgba(255,255,255,1.0);
+    font: 7pt;
+    padding: 1px;
+    text-align: center;
+    spacing: 10px;
+}
+
+.app-well-app.running > .overview-icon {
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(255,255,255,0);
+    background-gradient-end: rgba(255,255,255,0.3);
+    color: rgba(255,255,255,0.9);
+    -st-shadow: 0px -1px 5px 0px rgba(0,0,0,0.9);
+/*  padding: 4px 7px 4px 7px;*/
+    border-radius: 5px;
+}
+
+.contact:selected,
+.app-well-app:selected > .overview-icon,
+.search-result-content:selected > .overview-icon {
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(255,255,255,0);
+    background-gradient-end: rgba(255,255,255,0.3);
+    color: rgba(255,255,255,0.9);
+    padding: 4px 7px 4px 7px;   
+}
+
+.app-well-app:hover > .overview-icon,
+.remove-favorite:hover > .overview-icon,
+.search-result-content:hover > .overview-icon {
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 5px;
+}
+
+.contact:focus,
+.app-well-app:focus > .overview-icon,
+.search-result-content:focus > .overview-icon {
+        background-gradient-direction: vertical;
+    background-gradient-start: rgba(255,255,255,0.1);
+    background-gradient-end: rgba(255,255,255,0.3);
+    border-radius: 5px;
+    box-shadow: inset 0 2px 3px 0 rgba(0,0,0,0.4);
+    border: 1px 0 0 0 rgba(255,255,255,0.6);
+}
+
+.app-well-menu {
+    font-size: 8pt;
+}
+
+/*These styles are applied to the icons in the dash*/
+.dash-item-container {
+}
+
+.dash-item-container > .app-well-app {
+    padding: 5px 1px 5px 0px;
+}
+
+.dash-item-container .running > .overview-icon {
+    background: url("img/running.svg");
+    background-gradient-direction: horizontal;
+    background-gradient-start: rgba(255,255,255,0.0);
+    background-gradient-end: rgba(255,255,255,0);
+    color: rgba(255,255,255,0.9);
+    padding: 5px 7px 5px 8px;
+    border-radius: 0px;
+}
+
+ 
+.dash-item-container .running:hover  > .overview-icon{
+    background: url("img/running-hover.svg"); 
+    color: rgba(255,255,255,0.9);
+    border-radius: 0px;
+
+ } 
+
+ .dash-item-container .running:active  > .overview-icon{
+    background: url("img/running-active.svg"); 
+    color: rgba(255,255,255,0.9);
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 0 rgba(0,0,0,0) ;       
+ } 
+
+
+
+/*This section controls the app categories*/
+.app-filter {
+    font: 9pt;
+    font-weight: bold;
+    color: rgba(255,255,255,0.8); 
+    height: 25px;
+    width: 150px;
+    padding: 5px 0px 5px 8px ;
+    text-shadow: rgba(0,0,0,0.7) 0px -1px 0px;
+}
+
+.app-filter:hover {
+    color: rgba(255,255,255,1.0);
+    padding: 5px 0px 5px 8px ;
+}
+
+.app-filter:selected {
+    color: #fff;
+    background-gradient-direction: horizontal;
+    background-gradient-start: rgba(0,0,0,0.3);
+    background-gradient-end: rgba(0,0,0,0);
+    /*box-shadow: inset 0px -1px 0px 0px rgba(255,255,255,0.2);
+    border: 1px 0px 1px 1px solid rgba(0,0,0,0.1);*/
+    border-radius: 4px;
+}
+/*End right categories*/
+
+/*Contacts*/
+
+
+.contact {
+    width: 272px; /* Same width as two normal results + spacing */
+    height: 118px; /* Aspect ratio = 1.75. Normal US business card ratio */
+    border-radius: 4px;
+    padding: 3px;
+    border: 1px rgba(0,0,0,0);
+    transition-duration: 100;
+}
+
+.contact-content {
+    border-radius: 2px;
+    padding: 8px;
+    width: 232px;
+    height: 84px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.contact-icon {
+  border-radius: 4px;
+}
+
+.contact-details {
+  padding: 6px 8px 11px 8px;
+}
+
+.contact-details-alias {
+  font-size: 16px;
+  padding-bottom: 11px;
+}
+
+.contact-details-status {
+  font-size: 11pt;
+}
+
+.contact-details-status-icon {
+  padding-right: 2px;
+}
+
+.contact:hover {
+    background-color: rgba(255,255,255,0.1);
+    transition-duration: 100;
+}
+
+/*End Contacts*/

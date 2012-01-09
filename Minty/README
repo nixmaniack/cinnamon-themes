@@ -1,0 +1,36 @@
+Minty is a Cinnamon theme with some flavour of Linux Mint. It is compatible with the latest Cinnamon 3.2.
+
+---
+
+Ubuntu users can install Minty from our themes PPA using the following commands,
+
+sudo apt-add-repository ppa:satyajit-happy/themes
+sudo apt-get update && sudo apt-get install cinnamon-theme-minty
+
+---
+
+Installation Instructions:
+
+Extract the zip file to the themes directory i.e. "~/.themes/" or "/usr/share/themes/" or use Gnome Tweak Tool to install.
+
+Install the User Theme Extension and use the Gnome Tweak tool to choose the themes.
+
+To install the Cinnamon theme without the User Theme Extension,
+
+1. First backup your Cinnamon theme directory i.e. "/usr/share/cinnamon/theme/".
+
+2. Extract the zip file and rename "cinnamon" directory to "theme",
+
+3. Copy it to "/usr/share/cinnamon/".
+
+4. Restart Cinnamon by pressing "Alt+F2", then type r and press Enter.
+
+---
+
+To install Gnome Tweak Tool in Ubuntu, open the terminal and type,
+
+sudo apt-get install gnome-tweak-tool
+
+---
+
+License: GPL

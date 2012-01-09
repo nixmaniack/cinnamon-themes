@@ -1,0 +1,61 @@
+/* Media Player controls */
+.button-container {
+    padding-right: 5px;
+}
+
+.button {
+    width: 22px;
+    height: 13px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+.button:hover {
+    border: 1px solid white;
+}
+
+.button StIcon {
+    color: white; 
+    icon-size: 1.4em;
+}
+
+.track-infos {
+    padding-left: 10px;
+}
+
+.track-info {
+    padding-bottom: 4px;
+}
+
+.track-info StIcon {
+    color: white; 
+    icon-size: 1em;
+}
+
+.track-info StLabel {
+    color: white;     
+    padding-left: 5px;
+}
+
+.track-box {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.volume-menu-item {color: white; 
+    padding: .4em 1.75em;    border-radius: 4px;
+}
+
+.volume-menu-item StIcon {
+    icon-size: 1.14em;
+    padding-left: 8px;
+}
+
+.playback-control {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
